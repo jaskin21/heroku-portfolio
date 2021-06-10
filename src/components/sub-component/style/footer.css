@@ -1,8 +1,10 @@
 
-/* .footer {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    background-color: #87ceeb;
-} */
+.footer {
+     position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
