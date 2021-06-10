@@ -7,6 +7,9 @@ import CardMultimedia from "./sub-component/multimedia";
 import CardPersonalInfo from "./sub-component/personal-info";
 import CardExperience from "./sub-component/experience";
 
+// footer
+import Footer from "./sub-component/footer";
+
 export default class Home extends Component {
     render() {
         return (
@@ -41,7 +44,7 @@ export default class Home extends Component {
 
 
                 </div>
-
+                {/* <Footer /> */}
             </div>
         )
     }
