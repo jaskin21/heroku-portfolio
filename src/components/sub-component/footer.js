@@ -6,11 +6,13 @@ import "./style/footer.css";
 export default class Footer extends Component {
     render() {
         return (
-            <footer class="footer">
-                All Rights Reserve &copy;
-                <br />
-                <i>jaskin.agmata@gmail.com</i>
-            </footer>
+            <div>
+                <footer class="footer">
+                    <div className="footer-tag">
+                        Renz Jaskin Agmta Portfolio &copy; {new Date().getFullYear()}
+                    </div>
+                </footer>
+            </div >
         )
     }
 }

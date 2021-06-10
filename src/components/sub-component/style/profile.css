@@ -27,6 +27,4 @@ img {
     cursor: pointer;
 }
 
-.button-message:hover, .button-resume:hover{
-    opacity: 60%;
-}
+
