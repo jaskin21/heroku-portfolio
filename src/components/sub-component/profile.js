@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+// style
+import "./style/profile.css";
+
 // import profile picture
 import profile from "../images/displayPicture.jpg";
 
@@ -13,8 +16,10 @@ export default class CardProfile extends Component {
                     <h4 className="name">Renz Jaskin Agmata</h4>
                     <p className="position">IT Specialist</p>
                     <p className="description">Philippine Rubber Testing Center</p>
-                    <button className="button-message">Message</button>
-                    <button className="button-resume">Resume</button>
+                    <div className="button">
+                        <button className="button-message">Message</button>
+                        <button className="button-resume">Resume</button>
+                    </div>
                 </div>
             </div>
         )

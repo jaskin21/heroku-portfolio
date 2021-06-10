@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import "./style/home.css";
+
+// import card 1, 2, 3 and 4
 import CardProfile from "./sub-component/profile";
-
-
+import CardMultimedia from "./sub-component/multimedia";
+import CardPersonalInfo from "./sub-component/personal-info";
+import CardExperience from "./sub-component/experience";
 
 export default class Home extends Component {
     render() {
@@ -19,24 +22,19 @@ export default class Home extends Component {
                         <CardProfile />
 
                         {/* card 2 */}
-                        <div className="card-2 card">
-                            card 2
-                            </div>
-
+                        <CardMultimedia />
                     </div>
 
                     {/* second col */}
                     <div className="container-2 sub-container">
 
                         {/* card 3 */}
-                        <div className="card-3 card">
-                            card 3
-                            </div>
+                        <CardPersonalInfo />
+
+
 
                         {/* card 4 */}
-                        <div className="card-4 card">
-                            card4
-                            </div>
+                        <CardExperience />
 
                     </div>
 

@@ -1,20 +1,9 @@
+*   {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
 .sub-container {
     justify-content: center;
     }
-
-.card-1 {
-    justify-content: space-around;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 270px;
-    height: 270px;
-    border-radius: 4px;
-    border:double;
-}
 
 .card-2 {
     justify-content: space-around;
@@ -26,7 +15,6 @@ img {
 
 .card-4 {
     justify-content: space-around;
-    background-color: lawngreen;
 }
 
 .card {
@@ -35,14 +23,24 @@ img {
     color: black;
     border-radius: 5px;
     min-width: 20em;
-    background-color:#999;
     border: solid 1px;
+    background: linear-gradient(to left,#868f96, #80d0c7, #6de04a);  
+   /*  animation: gradient 20s ease infinite;  */
 }
 
-button {
-    border-radius: 4px;
-    background-color: yellowgreen;
-}
+/* @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    500% {
+        background-position:    100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+
     
 @media (min-width:500px) {
      
