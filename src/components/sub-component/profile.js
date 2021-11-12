@@ -19,7 +19,7 @@ export default class CardProfile extends Component {
                     <div className="button">
                         <a className="button-message" href="https://m.me/DontWasteMyyyTime/" target="blank">Message</a>
                         <a className="button-resume"
-                            href="https://drive.google.com/file/d/1FA8Hn8ebUoQ_T6AGEQpVTe-HiPrp1Sdk/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1cQQ1gG-4yuXIjU_ULbQa_Sw_5RdlJZgA/view?usp=sharing"
                             target="blank">Resume</a>
                     </div>
                 </div>
