@@ -17,7 +17,7 @@ export default class CardProfile extends Component {
                     <p className="position">IT Specialist</p>
                     <p className="description">Philippine Rubber Testing Center</p>
                     <div className="button">
-                        <a className="button-message" href="/email" target="blank">Message</a>
+                        <a className="button-message" href="https://m.me/DontWasteMyyyTime/" target="blank">Message</a>
                         <a className="button-resume"
                             href="https://drive.google.com/file/d/1FA8Hn8ebUoQ_T6AGEQpVTe-HiPrp1Sdk/view?usp=sharing"
                             target="blank">Resume</a>
